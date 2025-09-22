@@ -1,5 +1,4 @@
 <?php
-
 namespace App\classes;
 
 class FullName
@@ -11,7 +10,7 @@ class FullName
     public function __construct($post)
     {
         $this->firstname = $post['first_name'];
-        $this->lastname = $post['last_name'];
+        $this->lastname  = $post['last_name'];
 
     }
 

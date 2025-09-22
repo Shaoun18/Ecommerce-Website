@@ -27,9 +27,9 @@
                 <li class="dropdown">
                     <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product Category</a>
                     <ul class="dropdown-menu">
-                        <?php foreach ($categories as $category) { ?>
+                        <?php foreach ($categories as $category) {?>
                             <li><a href="action.php?page=category&id=<?php echo $category['id']; ?>" class="dropdown-item"><?php echo $category['name']; ?></a></li>
-                        <?php } ?>
+                        <?php }?>
                     </ul>
                 </li>
 

@@ -4,10 +4,8 @@
   "Description": "A simple php project",
   "keywords": [],
   "license": "",
-  "require-dev": {
-  },
-  "require": {
-  },
+  "require-dev": {},
+  "require": {},
   "autoload": {
     "psr-4": {
       "App\\": "app//"

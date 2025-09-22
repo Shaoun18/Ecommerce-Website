@@ -4,16 +4,16 @@
 
     <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1800" id="slider">
         <ol class="carousel-indicators">
-            <?php foreach ($sliders as $key => $slider){ ?>
-            <li data-bs-target="#slider" data-bs-slide-to="<?php echo $key; ?>" class="<?php echo ($key == 0) ? 'active' : ''; ?>"></li>
+            <?php foreach ($sliders as $key => $slider) {?>
+            <li data-bs-target="#slider" data-bs-slide-to="<?php echo $key; ?>" class="<?php echo($key == 0) ? 'active' : ''; ?>"></li>
 <!--            <li data-bs-target="#slider" data-bs-slide-to="1"></li>-->
 <!--            <li data-bs-target="#slider" data-bs-slide-to="2"></li>-->
-    <?php  }; ?>
+    <?php }?>
         </ol>
 
         <div class="carousel-inner">
-    <?php foreach ($sliders as $key1 => $slider){ ?>
-            <div class="carousel-item <?php echo ($key1 == 0) ? 'active' : ''; ?>">
+    <?php foreach ($sliders as $key1 => $slider) {?>
+            <div class="carousel-item<?php echo($key1 == 0) ? 'active' : ''; ?>">
                 <img src="assets/img/<?php echo $slider['image']; ?>" alt="nature img" class="w-100 h-500"/>
                 <div class="carousel-caption my-caption">
                     <h1><?php echo $slider['name']; ?></h1>
@@ -21,7 +21,7 @@
                     <a href="" class="btn btn-success"><?php echo $slider['button']; ?></a>
                 </div>
             </div>
-    <?php  }; ?>
+    <?php }?>
 
 <!--            <div class="carousel-item">-->
 <!--                <img src="assets/img/nature.jpg" alt="nature img" class="w-100 h-500"/>-->
@@ -58,22 +58,22 @@
         <div class="container">
             <div class="row">
 
-                <?php foreach ($contentss as $content) { ?>
+                <?php foreach ($contentss as $content) {?>
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">
-                            <?php echo $content['name'];?>
+                            <?php echo $content['name']; ?>
                         </div>
                         <div class="card-body">
-                            <b><?php echo $content['body'];?></b><hr/>
-                            <p>  <?php echo $content['para'];?></p>
+                            <b><?php echo $content['body']; ?></b><hr/>
+                            <p>                                 <?php echo $content['para']; ?></p>
                         </div>
                         <div class="card-footer">
-                            <?php echo $content['footer'];?>
+                            <?php echo $content['footer']; ?>
                         </div>
                     </div>
                 </div>
-    <?php } ?>
+    <?php }?>
 
 <!--                <div class="col-md-4">-->
 <!--                    <div class="card">-->
@@ -120,7 +120,7 @@
         <div class="container">
             <div class="row">
 
-                <?php foreach ($products as $product) { ?>
+                <?php foreach ($products as $product) {?>
                     <div class="col-md-3">
                         <div class="card">
                             <img src="assets/img/<?php echo $product['image']; ?>" alt="" class="h-250">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
 
-                <?php } ?>
+                <?php }?>
 
                 <!--            <div class="col-md-3">-->
                 <!--                <div class="card">-->

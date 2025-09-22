@@ -19,7 +19,7 @@
                     <p>Category Name : iphone</p>
                     <p> Brand Name : Apple</p>
                     <hr/>
-                    <h3>Tk. <?php echo $singleproduct['price']; ?></h3>
+                    <h3>Tk.                            <?php echo $singleproduct['price']; ?></h3>
                     <hr/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis libero nam quod
                         ratione. Est facere incidunt ipsam iure laborum, magni repellendus voluptatem! Accusantium
