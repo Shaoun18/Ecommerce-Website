@@ -3,7 +3,6 @@
 A simple **E-Commerce Website** built with **Raw PHP** (no frameworks).  
 This project demonstrates a basic structure for managing products, categories, and static pages with reusable components.  
 
----
 
 ## 📂 Project Structure  
 
@@ -48,7 +47,6 @@ E-COMMERCE-WEBSITE/
 
 ````
 
----
 
 ## 🚀 Features  
 - Dynamic Home Page with slider and products.  
@@ -57,7 +55,6 @@ E-COMMERCE-WEBSITE/
 - Modular structure with reusable header and footer.  
 - Organized assets (CSS, JS, Images).  
 
----
 
 ## ⚙️ Requirements  
 - PHP >= 7.4  
@@ -65,7 +62,6 @@ E-COMMERCE-WEBSITE/
 - Composer (for autoloading)  
 - Web Server (Apache/Nginx or Laragon/XAMPP)  
 
----
 
 ## ▶️ Installation & Setup  
 1. Clone the repository  
@@ -86,7 +82,6 @@ E-COMMERCE-WEBSITE/
    http://localhost:8000
    ```
 
----
 
 ## 📌 Notes
 
