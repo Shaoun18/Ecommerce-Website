@@ -1,4 +1,3 @@
-
 <!--footer tag-->
 <footer>
     <section class="py-5 bg-secondary">
@@ -11,7 +10,6 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias architecto
                             consectetur, error explicabo fugit itaque iure minima officiis omnis optio perspiciatis
                             porro possimus praesentium saepe sunt tenetur! Id, itaque?</p>
-
                     </div>
                 </div>
 
@@ -23,7 +21,6 @@
                             <div class="mb-3">
                                 <label>Enter Your Email</label>
                                 <input type="email" name="" placeholder="example@gmail.com" class="form-control ">
-
                             </div>
                             <div class="mb-3">
                                 <input type="button" name="" value="Subscribe Here" class="btn btn-success w-100">
@@ -41,8 +38,6 @@
                         <p class="mb-1">Email : example@gmail.com</p>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>

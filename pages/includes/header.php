@@ -14,7 +14,7 @@
 
 <!--menu bar tag-->
 
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
     <div class="container">
         <a href="" class="navbar-brand">Logo</a>
         <button type="button" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
